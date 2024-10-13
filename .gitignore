@@ -1,0 +1,111 @@
+# Python specific
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+
+# PySpark specific directories and files
+metastore_db/
+derby.log
+spark-warehouse/
+*.parquet
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Logs and databases
+*.log
+*.db
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Byte-compiled / optimized / DLL files
+*.pyc
+
+# Scala specific
+*.class
+*.log
+*.tmp
+.metals/
+
+# SBT specific directories
+target/
+lib_managed/
+src_managed/
+.project
+.cache
+.ensime
+.ensime_cache
+.idea
+*.iml
+
+# Eclipse specific files
+.classpath
+.project
+.settings/
+
+# VS Code specific files
+.vscode/
+*.code-workspace
+
+# Maven specific files
+*.jar
+*.war
+*.ear
+*.log
+
+# Scala libraries
+*.jars
+
+# IntelliJ IDEA specific
+.idea/
+*.iws
+*.iml
+.idea_modules/
+
+# General logs
+*.log
+logs/
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/

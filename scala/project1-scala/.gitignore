@@ -1,0 +1,53 @@
+# Compiled class files
+*.class
+
+# Scala specific files
+*.log
+*.tmp
+
+# SBT specific directories
+target/
+lib_managed/
+src_managed/
+.project
+.cache
+.ensime
+.ensime_cache
+.idea
+*.iml
+
+# Eclipse specific files
+.classpath
+.project
+.settings/
+
+# VS Code specific files
+.vscode/
+*.code-workspace
+
+# Maven specific files
+*.jar
+*.war
+*.ear
+*.log
+
+# Scala libraries
+*.jars
+
+# Log files
+*.log
+
+# Metastore and Derby logs (from Spark SQL)
+metastore_db/
+derby.log
+spark-warehouse/
+
+# Parquet files
+*.parquet
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+.idea_modules/
+.metals/
