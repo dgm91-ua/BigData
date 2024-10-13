@@ -1,0 +1,6 @@
+# CREAR UN NUEVO PROYECTO MAVEN PARA SCALA #
+mvn archetype:generate \
+  -DgroupId=com.example \
+  -DartifactId=example \
+  -DarchetypeArtifactId=maven-archetype-quickstart \
+  -DinteractiveMode=false
